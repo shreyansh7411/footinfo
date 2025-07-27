@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const connectDB = require('./db/connect');
 const Standing = require('./models/season');
-const Squad = require('./models/Squad');
+const Squad = require('./models/squad');
 const squads = require('./data/prem/squad2425')
 require('dotenv').config();
 
