@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer base {
+    .round-img {
+        @apply w-4 h-4 border rounded-2xl object-cover
+    }
+}

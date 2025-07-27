@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@layer base {
+    .table-1 {
+        @apply text-gray-400 transition-colors duration-150 ease-in-out cursor-pointer
+    }
+    .table-1:hover {
+        @apply  text-gray-300
+    }
+}
