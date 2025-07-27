@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Squad = require('../models/Squad.js');
+const Squad = require('../models/squad.js');
 
 router.get("/api/squad/:teamName", async (req, res) => {
   const { teamName } = req.params;
