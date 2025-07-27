@@ -1,5 +1,5 @@
 import { useLocation, useParams } from "react-router-dom"
-import axios from "axios";
+import api from './api'
 import { useEffect, useState } from "react";
 import './Teampage.css'
 import Dropdown from "./Dropdown";
@@ -34,32 +34,29 @@ const Teampage = () => {
     const leagueId = team?.leagueId;
 
     const fetchStandings = async () => {
-        try {
-            setLoading(true);
-            const response = await axios.get(`http://localhost:3000/api/standings/${leagueId}`,
-                {
-                    params: { season : selectedSeason},
-                }
-            );
-            setStandings(response.data)
-        } catch (error) {
-            console.log(error)
-        }
-        finally{
-            setLoading(false)
-        }
-    };
-
-    const fetchSquad = async() => {
       try {
-        const res = await axios.get(`http://localhost:3000/api/squad/${name}`)
-        setSquad(res.data.players);
+        setLoading(true);
+        const response = await api.get(`/api/standings/${leagueId}`, {
+          params: { season: selectedSeason },
+        });
+        setStandings(response.data);
       } catch (error) {
-        console.log(error)
+        console.log(error);
       } finally {
         setLoading(false);
       }
-    }
+    };
+
+    const fetchSquad = async () => {
+      try {
+        const res = await api.get(`/api/squad/${name}`);
+        setSquad(res.data.players);
+      } catch (error) {
+        console.log(error);
+      } finally {
+        setLoading(false);
+      }
+    };
 
     const [visible, setVisible] = useState(5);
     const [expanded, setExpanded] = useState(false);
