@@ -11,7 +11,7 @@ app.use(cors());
 app.use(standingsRoute);
 app.use(squadRoute);
 
-const PORT = 3000
+const PORT = process.env.PORT || 4000;
 
 const start = async()=> {
     try {
