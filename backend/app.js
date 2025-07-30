@@ -6,7 +6,10 @@ const connectDB = require('./db/connect.js')
 require('dotenv').config();
 const app = express();
 
-app.use(cors());
+app.use(cors({
+  origin: "https://footinfo-1.onrender.com"
+}));
+
 
 app.use(standingsRoute);
 app.use(squadRoute);
