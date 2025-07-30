@@ -62,7 +62,7 @@ const Teampage = () => {
     const fetchStandings = async () => {
       try {
         setLoading(true);
-        const response = await api.axios.get(`/api/standings/${leagueId}`, {
+        const response = await api.get(`/api/standings/${leagueId}`, {
           params: { season: selectedSeason },
         });
         setStandings(response.data);
@@ -75,7 +75,7 @@ const Teampage = () => {
 
     const fetchSquad = async () => {
       try {
-        const res = await api.axios.get(`/api/squad/${name}`);
+        const res = await api.get(`/api/squad/${name}`);
         setSquad(res.data.players);
       } catch (error) {
         console.log(error);
