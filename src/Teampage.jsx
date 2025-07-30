@@ -1,5 +1,6 @@
 import { useLocation, useParams } from "react-router-dom"
 import api from './api'
+/* import axios from "axios"; */
 import { useEffect, useState } from "react";
 import './Teampage.css'
 import Dropdown from "./Dropdown";
@@ -33,10 +34,10 @@ const Teampage = () => {
 
     const leagueId = team?.leagueId;
 
-    const fetchStandings = async () => {
+    /* const fetchStandings = async () => {
       try {
         setLoading(true);
-        const response = await api.get(`/api/standings/${leagueId}`, {
+        const response = await axios.get(`http://localhost:4000/api/standings/${leagueId}`, {
           params: { season: selectedSeason },
         });
         setStandings(response.data);
@@ -49,7 +50,32 @@ const Teampage = () => {
 
     const fetchSquad = async () => {
       try {
-        const res = await api.get(`/api/squad/${name}`);
+        const res = await axios.get(`http://localhost:4000/api/squad/${name}`);
+        setSquad(res.data.players);
+      } catch (error) {
+        console.log(error);
+      } finally {
+        setLoading(false);
+      }
+    }; */
+
+    const fetchStandings = async () => {
+      try {
+        setLoading(true);
+        const response = await api.axios.get(`/api/standings/${leagueId}`, {
+          params: { season: selectedSeason },
+        });
+        setStandings(response.data);
+      } catch (error) {
+        console.log(error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    const fetchSquad = async () => {
+      try {
+        const res = await api.axios.get(`/api/squad/${name}`);
         setSquad(res.data.players);
       } catch (error) {
         console.log(error);
@@ -57,6 +83,8 @@ const Teampage = () => {
         setLoading(false);
       }
     };
+
+
 
     const [visible, setVisible] = useState(5);
     const [expanded, setExpanded] = useState(false);
@@ -148,7 +176,7 @@ const Teampage = () => {
             <tbody>
               {Standings.map((t) => (
                   <tr key={t.position} className="group cursor-pointer">
-                  <td ><div className={`${rulesfunc(t.position, team.league)} w-6.5 h-6.5 rounded-full flex justify-center items-center font-bold`}>{t.position}</div></td>
+                  <td ><div className={`${rulesfunc(t.position, team.league, Standings.length)} w-6.5 h-6.5 rounded-full flex justify-center items-center font-bold`}>{t.position}</div></td>
                   <td className="py-2 flex gap-1">
                     <img src={t.crest} alt={t.name} className="w-5 h-5"/>
                     {t.name}

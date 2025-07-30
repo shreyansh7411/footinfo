@@ -8,11 +8,11 @@ const squads = require('./data/prem/squad2425')
 require('dotenv').config();
 
 const importStandings = async () => {
-  const files = fs.readdirSync(path.join(__dirname, 'data/bundesliga/standings'));
+  const files = fs.readdirSync(path.join(__dirname, 'data/seriea/standings'));
 
   for (const file of files) {
     if (file.endsWith('.js')) {
-      const data = require(`./data/bundesliga/standings/${file}`);
+      const data = require(`./data/seriea/standings/${file}`);
       await Standing.findOneAndUpdate(
         { id: data.id, league: data.league },
         data,
