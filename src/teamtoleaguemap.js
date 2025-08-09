@@ -1,0 +1,24 @@
+const teamtoleague = {
+    RMA: 2014,   
+    FCB: 2014,  
+    ATM: 2014,   
+    SEV: 2014,  
+    VIL: 2014,  
+    BET: 2014,   
+    GET: 2014,  
+    MAL: 2014,  
+    VAL: 2014,  
+    CEL: 2014,   
+    RSO: 2014,   
+    ATH: 2014,   
+    OSA: 2014,  
+    ESP: 2014,  
+    GIR: 2014,  
+    ELC: 2014,  
+    LVT: 2014,  
+    OVI: 2014,   
+    ALA: 2014,  
+    RAY: 2014,   
+}
+
+export default teamtoleague;

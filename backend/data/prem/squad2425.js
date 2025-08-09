@@ -3,7 +3,7 @@ const squad = [
         teamId: "MUN",
         teamName: "Manchester United",
         crestUrl: "https://upload.wikimedia.org/wikipedia/en/7/7a/Man_Utd_crest.svg",
-        season: "2023-24",
+        season: "2024-25",
         players: [
             {
                 name: "Bruno Fernandes",

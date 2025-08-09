@@ -3,6 +3,7 @@ import Mainteams from './Mainteams'
 import './App.css'
 import Navbar from './Navbar'
 import Teampage from './Teampage'
+import Teamstandingpage from './Teamstandingpage';
 
 function App() {
   
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Mainteams />} />
           <Route path="/team/:name" element={<Teampage />} />
+          <Route path="/standings/:teamId" element={<Teamstandingpage />} />
         </Routes>
       </div>
     </Router>

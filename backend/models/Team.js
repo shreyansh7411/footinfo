@@ -10,7 +10,6 @@ const TeamSchema = new mongoose.Schema({
   flagUrl: String,
   website: String,
   instagram: String,
-  rank: Number,
   titles: Number
 });
 

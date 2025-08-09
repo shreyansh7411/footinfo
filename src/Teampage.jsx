@@ -1,13 +1,15 @@
-import { useLocation, useParams } from "react-router-dom"
+import { useLocation, useNavigate, useParams } from "react-router-dom"
 import api from './api'
-/* import axios from "axios"; */
+import axios from "axios"; 
 import { useEffect, useState } from "react";
 import './Teampage.css'
 import Dropdown from "./Dropdown";
 import { FaCaretDown } from "react-icons/fa";
 import { FaCaretUp } from "react-icons/fa";
+import { HiUserCircle } from "react-icons/hi2";
 import Getrules from "./Getrules";
 import rulesfunc from "./rules";
+import laligamap from "./mapping";
 
 const Teampage = () => {
     const getRatingColor = (rating) => {
@@ -20,6 +22,11 @@ const Teampage = () => {
       return 'bg-red-700';                       
     };
 
+    const navigate = useNavigate();
+    const handleonClick = (teamId) => {
+      navigate(`/standings/${teamId}`);
+    }
+
 
     let i = 1;
     const {name} = useParams();
@@ -29,10 +36,13 @@ const Teampage = () => {
     const [Standings , setStandings] = useState([]);
     const [loading, setLoading] = useState(true);
     const [squad, setSquad] = useState([]);
+    const [manager, setManager] = useState({});
+    const [imageError, setImageError] = useState(false);
     const location = useLocation();
     const team = location.state?.team;
 
     const leagueId = team?.leagueId;
+
 
     /* const fetchStandings = async () => {
       try {
@@ -52,12 +62,13 @@ const Teampage = () => {
       try {
         const res = await axios.get(`http://localhost:4000/api/squad/${name}`);
         setSquad(res.data.players);
+        setManager(res.data.manager);
       } catch (error) {
         console.log(error);
       } finally {
         setLoading(false);
       }
-    }; */
+    };  */
 
     const fetchStandings = async () => {
       try {
@@ -113,7 +124,7 @@ const Teampage = () => {
 
 
     if(loading) {
-        return <div>Loading...</div>
+        return <div className="text-white">Loading...</div>
     }
 
   return <>
@@ -123,9 +134,18 @@ const Teampage = () => {
         </div>
         <div className="text-white pt-4 pl-6 font-bold">
             <div className="text-xl pb-3">{team?.name}</div>
-            <div className="flex gap-2">
-                <img src={team?.flag} alt={team?.country} className="w-6 h-6 border rounded-2xl object-cover"/>
-                <p className="">{team?.country}</p>
+            <div className="flex gap-8">
+                <div className="flex gap-1">
+                  <img src={team?.flag} alt={team?.country} className="w-6 h-6 border rounded-2xl object-cover"/>
+                  <p className="">{team?.country}</p>
+                </div>
+                <div className="font-normal flex gap-2 text-sm">
+                  <img src={manager.imageUrl} className="w-8 h-8 border border-none rounded-full"/>
+                  <div className="leading-none">
+                    {manager.name}
+                    <p className="text-gray-400 text-xs">manager</p>
+                  </div>
+                </div>
             </div>
         </div>
     </div>
@@ -136,7 +156,12 @@ const Teampage = () => {
           <div key={player.name} className="text-white p-4 hover:bg-zinc-800 flex justify-between">
             <div className="flex gap-2">
               <div>{i++}</div>
-              <div><img src={player.imageUrl} alt={player.name} className="w-6 h-6"/></div>
+              <div>
+              {imageError ? (
+                  <HiUserCircle className="w-6 h-6"/>
+                ) : (
+                  <img src={player.imageUrl} alt={player.name} className="w-8 h-8 border border-none rounded-full" onError={() => setImageError(false)}/>)}
+              </div>
               <div>{player.name}</div>
             </div>
             <div className="flex gap-1.5 items-center">
@@ -177,7 +202,7 @@ const Teampage = () => {
               {Standings.map((t) => (
                   <tr key={t.position} className="group cursor-pointer">
                   <td ><div className={`${rulesfunc(t.position, team.league, Standings.length)} w-6.5 h-6.5 rounded-full flex justify-center items-center font-bold`}>{t.position}</div></td>
-                  <td className="py-2 flex gap-1">
+                  <td className="py-2 flex gap-1" onClick={() => handleonClick(laligamap[t.name])}>
                     <img src={t.crest} alt={t.name} className="w-5 h-5"/>
                     {t.name}
                   </td>

@@ -20,7 +20,7 @@ const Dropdown = ({seasons, selectedSeason, setSelectedSeason}) => {
     const formatSeason = (year) => `${String(year).slice(-2)}/${String(year + 1).slice(-2)}`;
 
     return (
-    <div ref={dropdownRef} className='pb-4 relative'>
+    <div ref={dropdownRef} className='pb-4 relative cursor-pointer'>
       <div onClick={() => setOpen((prev) => !prev)} className='flex gap-3 text-white bg-black px-2 py-1 w-20 border border-none rounded-lg'>
         {formatSeason(Number(selectedSeason))}
         <div className='flex items-center'>{open ?(<FaCaretUp/>):(<FaCaretDown/>)}</div>
@@ -30,7 +30,7 @@ const Dropdown = ({seasons, selectedSeason, setSelectedSeason}) => {
        <div>
          <ul className='text-white bg-zinc-900 border border-none rounded-md lg:w-40 md:w-30 absolute  max-h-50 overflow-y-auto z-10 scrollbar-none'>
           {seasons.map((year) => (
-           <div key={year} className='py-2 px-4 hover:bg-black'>
+           <div key={year} className='py-2 px-4 hover:bg-black cursor-pointer'>
              <li
               onClick={() => {
                 setSelectedSeason(year);

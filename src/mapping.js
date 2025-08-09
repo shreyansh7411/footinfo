@@ -1,0 +1,30 @@
+const laligamap = {
+  "Real Madrid": "RMA",
+  "Barcelona": "FCB",
+  "Barça": "FCB",
+  "Atletico Madrid": "ATM",
+  "Atleti": "ATM",
+  "Athletic Club": "ATH",
+  "Athletic": "ATH",
+  "Real Sociedad": "RSO",
+  "Real Betis": "BET",
+  "Villarreal": "VIL",
+  "Sevilla": "SEV",
+  "Sevilla FC": "SEV",
+  "Valencia": "VAL",
+  "Getafe": "GET",
+  "Osasuna": "OSA",
+  "Celta Vigo": "CEL",
+  "Celta": "CEL",
+  "Alaves": "ALA",
+  "Alavés": "ALA",
+  "Rayo Vallecano": "RAY",
+  "Mallorca": "MLL",
+  "Elche": "ELC",
+  "Levante": "LEV",
+  "Real Oviedo": "OVI",
+  "Girona": "GIR",
+  "Espanyol": "ESP"
+};
+
+export default laligamap;

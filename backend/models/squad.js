@@ -1,5 +1,16 @@
 const mongoose = require('mongoose');
 
+const Managerschema = new mongoose.Schema({
+  name: {
+    type: String,
+    required: true
+  },
+  imageUrl: {
+    type: String,
+    default: ''
+  }
+})
+
 const PlayerSchema = new mongoose.Schema({
   name: {
     type: String,
@@ -58,6 +69,10 @@ const PlayerSchema = new mongoose.Schema({
   imageUrl: {
     type: String,
     default: ''
+  },
+  description: {
+    type: String,
+    default: ''
   }
 });
 
@@ -79,7 +94,8 @@ const SquadSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  manager: Managerschema,
   players: [PlayerSchema]
 });
 
-module.exports = mongoose.model('Squad', SquadSchema);
+module.exports = mongoose.model('Squad', SquadSchema, 'squadlaliga');

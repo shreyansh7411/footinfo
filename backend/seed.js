@@ -4,10 +4,10 @@ const path = require('path');
 const connectDB = require('./db/connect');
 const Standing = require('./models/season');
 const Squad = require('./models/squad');
-const squads = require('./data/prem/squad2425')
+const squads = require('./data/laliga/squad2425')
 require('dotenv').config();
 
-const importStandings = async () => {
+/* const importStandings = async () => {
   const files = fs.readdirSync(path.join(__dirname, 'data/seriea/standings'));
 
   for (const file of files) {
@@ -21,9 +21,9 @@ const importStandings = async () => {
       console.log(`✅ Seeded standings for season: ${data.season}`);
     }
   }
-};
+}; */
 
-/* const importSquad = async () => {
+const importSquad = async () => {
   for (const squad of squads) {
     await Squad.findOneAndUpdate(
       { teamId: squad.teamId, season: squad.season }, // ✅ correct fields
@@ -31,14 +31,14 @@ const importStandings = async () => {
       { upsert: true, new: true }
     );
   }
-}; */
+}; 
 
 
 const seed = async () => {
   try {
     await connectDB(process.env.MONGO_URI); 
-    await importStandings();
-   /*  await importSquad(); */
+    /* await importStandings(); */
+    await importSquad();
     console.log('🚀 All data seeded successfully!');
   } catch (err) {
     console.error('❌ Error during seeding:', err);
