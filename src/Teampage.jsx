@@ -44,7 +44,7 @@ const Teampage = () => {
     const leagueId = team?.leagueId;
 
 
-    const fetchStandings = async () => {
+   /*  const fetchStandings = async () => {
       try {
         setLoading(true);
         const response = await axios.get(`http://localhost:4000/api/standings/${leagueId}`, {
@@ -68,9 +68,9 @@ const Teampage = () => {
       } finally {
         setLoading(false);
       }
-    }; 
+    };  */
 
-    /* const fetchStandings = async () => {
+    const fetchStandings = async () => {
       try {
         setLoading(true);
         const response = await api.get(`/api/standings/${leagueId}`, {
@@ -93,7 +93,7 @@ const Teampage = () => {
       } finally {
         setLoading(false);
       }
-    }; */
+    };
 
 
 
