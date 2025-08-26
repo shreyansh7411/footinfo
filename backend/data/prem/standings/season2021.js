@@ -6,7 +6,7 @@ const standings_2020_21 = {
     {
       position: 1,
       team: "Manchester City",
-      crest: "https://crests.football-data.org/65.svg",
+      crest: "/England - Premier League/Manchester City.png",
       played: 38, won: 27, drawn: 5, lost: 6,
       gf: 83, ga: 32, gd: 51,
       points: 86,
@@ -15,7 +15,7 @@ const standings_2020_21 = {
     {
       position: 2,
       team: "Manchester United",
-      crest: "https://crests.football-data.org/66.svg",
+      crest: "/England - Premier League/Manchester United.png",
       played: 38, won: 21, drawn: 11, lost: 6,
       gf: 73, ga: 44, gd: 29,
       points: 74,
@@ -24,7 +24,7 @@ const standings_2020_21 = {
     {
       position: 3,
       team: "Liverpool",
-      crest: "https://crests.football-data.org/64.svg",
+      crest: "/England - Premier League/Liverpool FC.png",
       played: 38, won: 20, drawn: 9, lost: 9,
       gf: 68, ga: 42, gd: 26,
       points: 69,
@@ -33,7 +33,7 @@ const standings_2020_21 = {
     {
       position: 4,
       team: "Chelsea",
-      crest: "https://crests.football-data.org/61.svg",
+      crest: "/England - Premier League/Chelsea FC.png",
       played: 38, won: 19, drawn: 10, lost: 9,
       gf: 58, ga: 36, gd: 22,
       points: 67,
@@ -51,7 +51,7 @@ const standings_2020_21 = {
     {
       position: 6,
       team: "West Ham United",
-      crest: "https://crests.football-data.org/563.svg",
+      crest: "/England - Premier League/West Ham United.png",
       played: 38, won: 19, drawn: 8, lost: 11,
       gf: 62, ga: 47, gd: 15,
       points: 65,
@@ -60,7 +60,7 @@ const standings_2020_21 = {
     {
       position: 7,
       team: "Tottenham Hotspur",
-      crest: "https://crests.football-data.org/73.svg",
+      crest: "/England - Premier League/Tottenham Hotspur.png",
       played: 38, won: 18, drawn: 8, lost: 12,
       gf: 68, ga: 45, gd: 23,
       points: 62,
@@ -69,7 +69,7 @@ const standings_2020_21 = {
     {
       position: 8,
       team: "Arsenal",
-      crest: "https://crests.football-data.org/57.svg",
+      crest: "/England - Premier League/Arsenal FC.png",
       played: 38, won: 18, drawn: 7, lost: 13,
       gf: 55, ga: 39, gd: 16,
       points: 61,
@@ -78,7 +78,7 @@ const standings_2020_21 = {
     {
       position: 9,
       team: "Leeds United",
-      crest: "https://crests.football-data.org/356.svg",
+      crest: "/England - Premier League/Leeds United.png",
       played: 38, won: 18, drawn: 5, lost: 15,
       gf: 62, ga: 54, gd: 8,
       points: 59,
@@ -87,7 +87,7 @@ const standings_2020_21 = {
     {
       position: 10,
       team: "Everton",
-      crest: "https://crests.football-data.org/62.svg",
+      crest: "/England - Premier League/Everton FC.png",
       played: 38, won: 17, drawn: 8, lost: 13,
       gf: 47, ga: 48, gd: -1,
       points: 59,
@@ -96,7 +96,7 @@ const standings_2020_21 = {
     {
       position: 11,
       team: "Aston Villa",
-      crest: "https://crests.football-data.org/58.svg",
+      crest: "/England - Premier League/Aston Villa.png",
       played: 38, won: 16, drawn: 7, lost: 15,
       gf: 55, ga: 46, gd: 9,
       points: 55,
@@ -105,7 +105,7 @@ const standings_2020_21 = {
     {
       position: 12,
       team: "Newcastle United",
-      crest: "https://crests.football-data.org/67.svg",
+      crest: "/England - Premier League/Newcastle United.png",
       played: 38, won: 12, drawn: 9, lost: 17,
       gf: 46, ga: 62, gd: -16,
       points: 45,
@@ -114,7 +114,7 @@ const standings_2020_21 = {
     {
       position: 13,
       team: "Wolverhampton Wanderers",
-      crest: "https://crests.football-data.org/76.svg",
+      crest: "/England - Premier League/Wolverhampton Wanderers.png",
       played: 38, won: 12, drawn: 9, lost: 17,
       gf: 36, ga: 52, gd: -16,
       points: 45,
@@ -123,7 +123,7 @@ const standings_2020_21 = {
     {
       position: 14,
       team: "Crystal Palace",
-      crest: "https://crests.football-data.org/354.svg",
+      crest: "/England - Premier League/Crystal Palace.png",
       played: 38, won: 12, drawn: 8, lost: 18,
       gf: 41, ga: 66, gd: -25,
       points: 44,
@@ -141,7 +141,7 @@ const standings_2020_21 = {
     {
       position: 16,
       team: "Brighton & Hove Albion",
-      crest: "https://crests.football-data.org/397.svg",
+      crest: "/England - Premier League/Brighton & Hove Albion.png",
       played: 38, won: 9, drawn: 14, lost: 15,
       gf: 40, ga: 46, gd: -6,
       points: 41,
@@ -150,7 +150,7 @@ const standings_2020_21 = {
     {
       position: 17,
       team: "Burnley",
-      crest: "https://crests.football-data.org/328.svg",
+      crest: "/England - Premier League/Burnley FC.png",
       played: 38, won: 10, drawn: 9, lost: 19,
       gf: 33, ga: 55, gd: -22,
       points: 39,

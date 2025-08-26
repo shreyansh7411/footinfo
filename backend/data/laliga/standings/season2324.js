@@ -6,7 +6,7 @@ const standings_2023_24 = {
     {
       team: "Real Madrid",
       position: 1,
-      crest: "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg",
+      crest: "/Spain - LaLiga/Real Madrid.png",
       played: 38,
       won: 29,
       drawn: 8,
@@ -20,7 +20,7 @@ const standings_2023_24 = {
     {
       team: "Barcelona",
       position: 2,
-      crest: "https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg",
+      crest: "/Spain - LaLiga/FC Barcelona.png",
       played: 38,
       won: 26,
       drawn: 7,
@@ -34,7 +34,7 @@ const standings_2023_24 = {
     {
       team: "Girona",
       position: 3,
-      crest: "https://upload.wikimedia.org/wikipedia/en/5/5e/Girona_FC_logo.svg",
+      crest: "/Spain - LaLiga/Girona FC.png",
       played: 38,
       won: 25,
       drawn: 6,
@@ -48,7 +48,7 @@ const standings_2023_24 = {
     {
       team: "Atlético Madrid",
       position: 4,
-      crest: "https://upload.wikimedia.org/wikipedia/en/f/f4/Atletico_Madrid_logo.svg",
+      crest: "/Spain - LaLiga/Atlético de Madrid.png",
       played: 38,
       won: 24,
       drawn: 4,
@@ -62,7 +62,7 @@ const standings_2023_24 = {
     {
       team: "Athletic Bilbao",
       position: 5,
-      crest: "https://upload.wikimedia.org/wikipedia/en/1/12/Athletic_Bilbao_logo.svg",
+      crest: "/Spain - LaLiga/Athletic Bilbao.png",
       played: 38,
       won: 19,
       drawn: 11,
@@ -76,7 +76,7 @@ const standings_2023_24 = {
     {
       team: "Real Sociedad",
       position: 6,
-      crest: "https://upload.wikimedia.org/wikipedia/en/4/47/Real_Sociedad_logo.svg",
+      crest: "/Spain - LaLiga/Real Sociedad.png",
       played: 38,
       won: 16,
       drawn: 12,
@@ -90,7 +90,7 @@ const standings_2023_24 = {
     {
       team: "Real Betis",
       position: 7,
-      crest: "https://upload.wikimedia.org/wikipedia/en/f/f2/Real_Betis_logo.svg",
+      crest: "/Spain - LaLiga/Real Betis Balompié.png",
       played: 38,
       won: 14,
       drawn: 15,
@@ -104,7 +104,7 @@ const standings_2023_24 = {
     {
       team: "Villarreal",
       position: 8,
-      crest: "https://upload.wikimedia.org/wikipedia/en/6/66/Villarreal_CF_logo.svg",
+      crest: "/Spain - LaLiga/Villarreal CF.png",
       played: 38,
       won: 14,
       drawn: 11,
@@ -118,7 +118,7 @@ const standings_2023_24 = {
     {
       team: "Valencia",
       position: 9,
-      crest: "https://upload.wikimedia.org/wikipedia/en/f/f0/Valencia_CF_logo.svg",
+      crest: "/Spain - LaLiga/Valencia CF.png",
       played: 38,
       won: 13,
       drawn: 10,
@@ -132,7 +132,7 @@ const standings_2023_24 = {
     {
       team: "Alavés",
       position: 10,
-      crest: "https://upload.wikimedia.org/wikipedia/en/f/f9/Deportivo_Alaves_logo.svg",
+      crest: "/Spain - LaLiga/Deportivo Alavés.png",
       played: 38,
       won: 12,
       drawn: 10,
@@ -146,7 +146,7 @@ const standings_2023_24 = {
     {
       team: "Osasuna",
       position: 11,
-      crest: "https://upload.wikimedia.org/wikipedia/en/6/6a/CA_Osasuna_logo.svg",
+      crest: "/Spain - LaLiga/CA Osasuna.png",
       played: 38,
       won: 12,
       drawn: 9,
@@ -160,7 +160,7 @@ const standings_2023_24 = {
     {
       team: "Getafe",
       position: 12,
-      crest: "https://upload.wikimedia.org/wikipedia/en/8/86/Getafe_CF_logo.svg",
+      crest: "/Spain - LaLiga/Getafe CF.png",
       played: 38,
       won: 10,
       drawn: 13,
@@ -174,7 +174,7 @@ const standings_2023_24 = {
     {
       team: "Celta Vigo",
       position: 13,
-      crest: "https://upload.wikimedia.org/wikipedia/en/7/7f/Celta_Vigo_logo.svg",
+      crest: "/Spain - LaLiga/Celta de Vigo.png",
       played: 38,
       won: 10,
       drawn: 11,
@@ -188,7 +188,7 @@ const standings_2023_24 = {
     {
       team: "Sevilla",
       position: 14,
-      crest: "https://upload.wikimedia.org/wikipedia/en/3/3b/Sevilla_FC_logo.svg",
+      crest: "/Spain - LaLiga/Sevilla FC.png",
       played: 38,
       won: 10,
       drawn: 11,
@@ -202,7 +202,7 @@ const standings_2023_24 = {
     {
       team: "Real Mallorca",
       position: 15,
-      crest: "https://upload.wikimedia.org/wikipedia/en/5/5e/RCD_Mallorca_logo.svg",
+      crest: "/Spain - LaLiga/RCD Mallorca.png",
       played: 38,
       won: 8,
       drawn: 16,
@@ -216,7 +216,7 @@ const standings_2023_24 = {
     {
       team: "Las Palmas",
       position: 16,
-      crest: "https://upload.wikimedia.org/wikipedia/en/0/0f/UD_Las_Palmas_logo.svg",
+      crest: "/Spain - LaLiga/Las Palmas.png",
       played: 38,
       won: 10,
       drawn: 10,
@@ -230,7 +230,7 @@ const standings_2023_24 = {
     {
       team: "Rayo Vallecano",
       position: 17,
-      crest: "https://upload.wikimedia.org/wikipedia/en/1/13/Rayo_Vallecano_logo.svg",
+      crest: "/Spain - LaLiga/Rayo Vallecano.png",
       played: 38,
       won: 8,
       drawn: 14,
@@ -244,7 +244,7 @@ const standings_2023_24 = {
     {
       team: "Cádiz",
       position: 18,
-      crest: "https://upload.wikimedia.org/wiki/File:Cd_cadiz_logo.svg",
+      crest: "/Spain - LaLiga/Cadiz FC.png",
       played: 38,
       won: 6,
       drawn: 15,
@@ -258,7 +258,7 @@ const standings_2023_24 = {
     {
       team: "Almería",
       position: 19,
-      crest: "https://upload.wikimedia.org/wiki/File:UD_Almería_logo.svg",
+      crest: "/Spain - LaLiga/Almeria FC.png",
       played: 38,
       won: 3,
       drawn: 12,
@@ -272,7 +272,7 @@ const standings_2023_24 = {
     {
       team: "Granada",
       position: 20,
-      crest: "https://upload.wikimedia.org/wikipedia/en/2/2c/Granada_CF_logo.svg",
+      crest: "/Spain - LaLiga/Granada FC.png",
       played: 38,
       won: 4,
       drawn: 9,

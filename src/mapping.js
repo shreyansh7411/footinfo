@@ -1,4 +1,4 @@
-const laligamap = {
+const teammap = {
   "Real Madrid": "RMA",
   "Barcelona": "FCB",
   "Barça": "FCB",
@@ -20,11 +20,36 @@ const laligamap = {
   "Alavés": "ALA",
   "Rayo Vallecano": "RAY",
   "Mallorca": "MLL",
+  "RCD Mallorca": "MLL",
   "Elche": "ELC",
   "Levante": "LEV",
   "Real Oviedo": "OVI",
   "Girona": "GIR",
-  "Espanyol": "ESP"
+  "Espanyol": "ESP",
+  "Arsenal": "ARS",
+  "AFC Bournemouth": "BOU",
+  "Brentford": "BRE",
+  "Brighton & Hove Albion": "BHA",
+  "Chelsea": "CHE",
+  "Crystal Palace": "CRY",
+  "Everton": "EVE",
+  "Fulham": "FUL",
+  "Ipswich Town": "IPS",
+  "Leicester City": "LEI",
+  "Liverpool": "LIV",
+  "Manchester City": "MCI",
+  "Man City": "MCI",
+  "Manchester United": "MUN",
+  "Man Utd": "MUN",
+  "Newcastle United": "NEW",
+  "Nottingham Forest": "NFO",
+  "Southampton": "SOU",
+  "Tottenham Hotspur": "TOT",
+  "Tottenham": "TOT",
+  "Spurs": "TOT",
+  "West Ham United": "WHU",
+  "Wolverhampton Wanderers": "WOL",
+  "Wolves": "WOL"
 };
 
-export default laligamap;
+export default teammap;

@@ -6,7 +6,7 @@ const standings_2020_21 = {
     {
       team: "Atlético Madrid",
       position: 1,
-      crest: "https://upload.wikimedia.org/wikipedia/en/f/f4/Atletico_Madrid_logo.svg",
+      crest: "/Spain - LaLiga/Atlético de Madrid.png",
       played: 38,
       won: 26,
       drawn: 8,
@@ -20,7 +20,7 @@ const standings_2020_21 = {
     {
       team: "Real Madrid",
       position: 2,
-      crest: "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg",
+      crest: "/Spain - LaLiga/Real Madrid.png",
       played: 38,
       won: 25,
       drawn: 9,
@@ -34,7 +34,7 @@ const standings_2020_21 = {
     {
       team: "Barcelona",
       position: 3,
-      crest: "https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg",
+      crest: "/Spain - LaLiga/FC Barcelona.png",
       played: 38,
       won: 24,
       drawn: 7,
@@ -48,7 +48,7 @@ const standings_2020_21 = {
     {
       team: "Sevilla",
       position: 4,
-      crest: "https://upload.wikimedia.org/wikipedia/en/3/3b/Sevilla_FC_logo.svg",
+      crest: "/Spain - LaLiga/Sevilla FC.png",
       played: 38,
       won: 24,
       drawn: 5,
@@ -62,7 +62,7 @@ const standings_2020_21 = {
     {
       team: "Real Sociedad",
       position: 5,
-      crest: "https://upload.wikimedia.org/wikipedia/en/4/47/Real_Sociedad_logo.svg",
+      crest: "/Spain - LaLiga/Real Sociedad.png",
       played: 38,
       won: 17,
       drawn: 11,
@@ -76,7 +76,7 @@ const standings_2020_21 = {
     {
       team: "Real Betis",
       position: 6,
-      crest: "https://upload.wikimedia.org/wikipedia/en/f/f2/Real_Betis_logo.svg",
+      crest: "/Spain - LaLiga/Real Betis Balompié.png",
       played: 38,
       won: 17,
       drawn: 10,
@@ -90,7 +90,7 @@ const standings_2020_21 = {
     {
       team: "Villarreal",
       position: 7,
-      crest: "https://upload.wikimedia.org/wikipedia/en/6/66/Villarreal_CF_logo.svg",
+      crest: "/Spain - LaLiga/Villarreal CF.png",
       played: 38,
       won: 15,
       drawn: 13,
@@ -104,7 +104,7 @@ const standings_2020_21 = {
     {
       team: "Celta Vigo",
       position: 8,
-      crest: "https://upload.wikimedia.org/wikipedia/en/7/7f/Celta_Vigo_logo.svg",
+      crest: "/Spain - LaLiga/Celta de Vigo.png",
       played: 38,
       won: 14,
       drawn: 11,
@@ -118,7 +118,7 @@ const standings_2020_21 = {
     {
       team: "Granada",
       position: 9,
-      crest: "https://upload.wikimedia.org/wikipedia/en/2/2c/Granada_CF_logo.svg",
+      crest: "/Spain - LaLiga/Granada FC.png",
       played: 38,
       won: 13,
       drawn: 7,
@@ -132,7 +132,7 @@ const standings_2020_21 = {
     {
       team: "Athletic Bilbao",
       position: 10,
-      crest: "https://upload.wikimedia.org/wikipedia/en/1/12/Athletic_Bilbao_logo.svg",
+      crest: "/Spain - LaLiga/Athletic Bilbao.png",
       played: 38,
       won: 11,
       drawn: 13,
@@ -146,7 +146,7 @@ const standings_2020_21 = {
     {
       team: "Osasuna",
       position: 11,
-      crest: "https://upload.wikimedia.org/wikipedia/en/6/6a/CA_Osasuna_logo.svg",
+      crest: "/Spain - LaLiga/CA Osasuna.png",
       played: 38,
       won: 11,
       drawn: 11,
@@ -160,7 +160,7 @@ const standings_2020_21 = {
     {
       team: "Cádiz",
       position: 12,
-      crest: "https://upload.wikimedia.org/wikipedia/en/0/0f/UD_Las_Palmas_logo.svg", // placeholder crest
+      crest: "/Spain - LaLiga/Las Palmas.png", // placeholder crest
       played: 38,
       won: 11,
       drawn: 11,
@@ -174,7 +174,7 @@ const standings_2020_21 = {
     {
       team: "Valencia",
       position: 13,
-      crest: "https://upload.wikimedia.org/wikipedia/en/f/f0/Valencia_CF_logo.svg",
+      crest: "/Spain - LaLiga/Valencia CF.png",
       played: 38,
       won: 10,
       drawn: 13,
@@ -188,7 +188,7 @@ const standings_2020_21 = {
     {
       team: "Levante",
       position: 14,
-      crest: "https://upload.wikimedia.org/wikipedia/en/5/51/Levante_Uni%C3%B3n_LOGO.svg",
+      crest: "/Spain - LaLiga/Levante UD.png",
       played: 38,
       won: 9,
       drawn: 14,
@@ -202,7 +202,7 @@ const standings_2020_21 = {
     {
       team: "Getafe",
       position: 15,
-      crest: "https://upload.wikimedia.org/wikipedia/en/8/86/Getafe_CF_logo.svg",
+      crest: "/Spain - LaLiga/Getafe CF.png",
       played: 38,
       won: 9,
       drawn: 11,
@@ -216,7 +216,7 @@ const standings_2020_21 = {
     {
       team: "Alavés",
       position: 16,
-      crest: "https://upload.wikimedia.org/wikipedia/en/f/f9/Deportivo_Alaves_logo.svg",
+      crest: "/Spain - LaLiga/Deportivo Alavés.png",
       played: 38,
       won: 9,
       drawn: 11,
@@ -230,7 +230,7 @@ const standings_2020_21 = {
     {
       team: "Elche",
       position: 17,
-      crest: "https://upload.wikimedia.org/wikipedia/en/0/0f/UD_Las_Palmas_logo.svg", // placeholder crest
+      crest: "/Spain - LaLiga/Las Palmas.png", // placeholder crest
       played: 38,
       won: 8,
       drawn: 12,
@@ -244,7 +244,7 @@ const standings_2020_21 = {
     {
       team: "Huesca",
       position: 18,
-      crest: "https://upload.wikimedia.org/wikipedia/en/5/56/SD_Huesca_logo.svg",
+      crest: "/Spain - LaLiga/Heusca FC.png",
       played: 38,
       won: 7,
       drawn: 13,
@@ -258,7 +258,7 @@ const standings_2020_21 = {
     {
       team: "Valladolid",
       position: 19,
-      crest: "https://upload.wikimedia.org/wikipedia/en/6/6e/Real_Valladolid_crest.svg",
+      crest: "/Spain - LaLiga/Valladolid FC.png",
       played: 38,
       won: 5,
       drawn: 16,
@@ -272,7 +272,7 @@ const standings_2020_21 = {
     {
       team: "Eibar",
       position: 20,
-      crest: "https://upload.wikimedia.org/wikipedia/en/1/11/SD_Eibar_logo.svg",
+      crest: "/Spain - LaLiga/Eibar FC.png",
       played: 38,
       won: 6,
       drawn: 12,

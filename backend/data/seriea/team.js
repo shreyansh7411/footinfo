@@ -261,4 +261,4 @@ const serieATeams = [
   }
 ];
 
-module.exports = serieATeams;
+export default serieATeams

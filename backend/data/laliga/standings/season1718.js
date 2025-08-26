@@ -6,7 +6,7 @@ const standings_2017_18 = {
     {
       team: "Barcelona",
       position: 1,
-      crest: "https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg",
+      crest: "/Spain - LaLiga/FC Barcelona.png",
       played: 38,
       won: 28,
       drawn: 9,
@@ -21,7 +21,7 @@ const standings_2017_18 = {
     {
       team: "Atlético Madrid",
       position: 2,
-      crest: "https://upload.wikimedia.org/wikipedia/en/f/f4/Atletico_Madrid_logo.svg",
+      crest: "/Spain - LaLiga/Atlético de Madrid.png",
       played: 38,
       won: 23,
       drawn: 10,
@@ -36,7 +36,7 @@ const standings_2017_18 = {
     {
       team: "Real Madrid",
       position: 3,
-      crest: "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg",
+      crest: "/Spain - LaLiga/Real Madrid.png",
       played: 38,
       won: 22,
       drawn: 10,
@@ -51,7 +51,7 @@ const standings_2017_18 = {
     {
       team: "Valencia",
       position: 4,
-      crest: "https://upload.wikimedia.org/wikipedia/en/f/f0/Valencia_CF_logo.svg",
+      crest: "/Spain - LaLiga/Valencia CF.png",
       played: 38,
       won: 22,
       drawn: 7,
@@ -66,7 +66,7 @@ const standings_2017_18 = {
     {
       team: "Villarreal",
       position: 5,
-      crest: "https://upload.wikimedia.org/wikipedia/en/6/66/Villarreal_CF_logo.svg",
+      crest: "/Spain - LaLiga/Villarreal CF.png",
       played: 38,
       won: 18,
       drawn: 7,
@@ -81,7 +81,7 @@ const standings_2017_18 = {
     {
       team: "Real Betis",
       position: 6,
-      crest: "https://upload.wikimedia.org/wikipedia/en/f/f2/Real_Betis_logo.svg",
+      crest: "/Spain - LaLiga/Real Betis Balompié.png",
       played: 38,
       won: 18,
       drawn: 6,
@@ -96,7 +96,7 @@ const standings_2017_18 = {
     {
       team: "Sevilla",
       position: 7,
-      crest: "https://upload.wikimedia.org/wikipedia/en/3/3b/Sevilla_FC_logo.svg",
+      crest: "/Spain - LaLiga/Sevilla FC.png",
       played: 38,
       won: 17,
       drawn: 7,
@@ -111,7 +111,7 @@ const standings_2017_18 = {
     {
       team: "Getafe",
       position: 8,
-      crest: "https://upload.wikimedia.org/wikipedia/en/8/86/Getafe_CF_logo.svg",
+      crest: "/Spain - LaLiga/Getafe CF.png",
       played: 38,
       won: 15,
       drawn: 10,
@@ -126,7 +126,7 @@ const standings_2017_18 = {
     {
       team: "Eibar",
       position: 9,
-      crest: "https://upload.wikimedia.org/wikipedia/en/1/11/SD_Eibar_logo.svg",
+      crest: "/Spain - LaLiga/Eibar FC.png",
       played: 38,
       won: 14,
       drawn: 9,
@@ -141,7 +141,7 @@ const standings_2017_18 = {
     {
       team: "Girona",
       position: 10,
-      crest: "https://upload.wikimedia.org/wikipedia/en/5/5e/Girona_FC_logo.svg",
+      crest: "/Spain - LaLiga/Girona FC.png",
       played: 38,
       won: 14,
       drawn: 9,
@@ -156,7 +156,7 @@ const standings_2017_18 = {
     {
       team: "Real Sociedad",
       position: 11,
-      crest: "https://upload.wikimedia.org/wikipedia/en/4/47/Real_Sociedad_logo.svg",
+      crest: "/Spain - LaLiga/Real Sociedad.png",
       played: 38,
       won: 14,
       drawn: 7,
@@ -171,7 +171,7 @@ const standings_2017_18 = {
     {
       team: "Celta Vigo",
       position: 12,
-      crest: "https://upload.wikimedia.org/wikipedia/en/7/7f/Celta_Vigo_logo.svg",
+      crest: "/Spain - LaLiga/Celta de Vigo.png",
       played: 38,
       won: 13,
       drawn: 10,
@@ -186,7 +186,7 @@ const standings_2017_18 = {
     {
       team: "Espanyol",
       position: 13,
-      crest: "https://upload.wikimedia.org/wikipedia/en/0/02/RCD_Espanyol_logo.svg",
+      crest: "/Spain - LaLiga/RCD Espanyol Barcelona.png",
       played: 38,
       won: 12,
       drawn: 13,
@@ -201,7 +201,7 @@ const standings_2017_18 = {
     {
       team: "Alavés",
       position: 14,
-      crest: "https://upload.wikimedia.org/wikipedia/en/f/f9/Deportivo_Alaves_logo.svg",
+      crest: "/Spain - LaLiga/Deportivo Alavés.png",
       played: 38,
       won: 15,
       drawn: 2,
@@ -216,7 +216,7 @@ const standings_2017_18 = {
     {
       team: "Levante",
       position: 15,
-      crest: "https://upload.wikimedia.org/wikipedia/en/5/51/Levante_Uni%C3%B1%C3%B3n_LOGO.svg",
+      crest: "/Spain - LaLiga/Levante UD.png",
       played: 38,
       won: 11,
       drawn: 13,
@@ -231,7 +231,7 @@ const standings_2017_18 = {
     {
       team: "Athletic Bilbao",
       position: 16,
-      crest: "https://upload.wikimedia.org/wikipedia/en/1/12/Athletic_Bilbao_logo.svg",
+      crest: "/Spain - LaLiga/Athletic Bilbao.png",
       played: 38,
       won: 10,
       drawn: 13,
@@ -246,7 +246,7 @@ const standings_2017_18 = {
     {
       team: "Leganés",
       position: 17,
-      crest: "https://upload.wikimedia.org/wikipedia/en/b/b5/CD_Legan%C3%A9s_logo.svg",
+      crest: "/Spain - LaLiga/Leganes FC.png",
       played: 38,
       won: 12,
       drawn: 7,
@@ -261,7 +261,7 @@ const standings_2017_18 = {
     {
       team: "Deportivo La Coruña",
       position: 18,
-      crest: "https://upload.wikimedia.org/wikipedia/en/0/0c/RC_Deportivo_La_Coru%C3%B1a_logo.svg",
+      crest: "/Spain - LaLiga/Deportivo FC.png",
       played: 38,
       won: 6,
       drawn: 11,
@@ -276,7 +276,7 @@ const standings_2017_18 = {
     {
       team: "Las Palmas",
       position: 19,
-      crest: "https://upload.wikimedia.org/wikipedia/en/5/59/UD_Las_Palmas_logo.svg",
+      crest: "/Spain - LaLiga/Las Palmas.png",
       played: 38,
       won: 5,
       drawn: 7,
@@ -291,7 +291,7 @@ const standings_2017_18 = {
     {
       team: "Málaga",
       position: 20,
-      crest: "https://upload.wikimedia.org/wikipedia/en/8/86/M%C3%A1laga_CF_logo.svg",
+      crest: "/Spain - LaLiga/Malaga FC.png",
       played: 38,
       won: 5,
       drawn: 5,

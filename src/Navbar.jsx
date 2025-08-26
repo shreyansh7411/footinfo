@@ -1,5 +1,6 @@
 import footLogo from './assets/foot-logo.svg'
 import laligaLogo from './assets/laliga-logo.svg'
+import premLogo from './assets/prem-logo-2.png'
 import { FaSearch, FaEllipsisH  } from "react-icons/fa";
 import './Navbar.css'
 

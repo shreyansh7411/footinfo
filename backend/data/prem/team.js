@@ -261,4 +261,4 @@ const premTeams = [
   }
 ];
 
-module.exports = premTeams;
+export default premTeams;

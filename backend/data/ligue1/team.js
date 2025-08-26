@@ -235,4 +235,4 @@ const ligue1teams = [
  }
 ];
 
-module.exports = ligue1teams;
+export default ligue1teams;

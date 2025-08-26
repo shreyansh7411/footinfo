@@ -11,8 +11,21 @@ import Getrules from "./Getrules";
 import rulesfunc from "./rules";
 import laligamap from "./mapping";
 import laligateams from '../backend/data/laliga/team'
+import premteams from '../backend/data/prem/team'
+import bundesligateams from '../backend/data/bundesliga/team'
+import ligue1teams from '../backend/data/ligue1/team'
+import serieateams from '../backend/data/seriea/team'
 
 const Teamstandingpage = () => {
+  const allLeagues = [laligateams, premteams, bundesligateams, ligue1teams, serieateams];
+
+  const findTeamById = (teamId) => {
+    for (const league of allLeagues) {
+      const team = league.find(t => t.teamId === teamId);
+      if (team) return team;
+    }
+    return null; 
+  }
 
   const getRatingColor = (rating) => {
       if (rating >= 9) return 'bg-blue-800';     
@@ -40,8 +53,8 @@ const Teamstandingpage = () => {
   const [manager, setManager] = useState({});
   const [imageError, setImageError] = useState(false);
   const leagueId = teamtoleague[teamId];
-  const team = laligateams.find(t => t.teamId === teamId)
-  /* const fetchStandings = async () => {
+  const team = findTeamById(teamId);
+  const fetchStandings = async () => {
       try {
         setLoading(true);
         const response = await axios.get(`http://localhost:4000/api/standings/${leagueId}`, {
@@ -65,9 +78,9 @@ const Teamstandingpage = () => {
       } finally {
         setLoading(false);
       }
-    };  */
+    }; 
 
-    const fetchStandings = async () => {
+    /* const fetchStandings = async () => {
       try {
         setLoading(true);
         const response = await api.get(`/api/standings/${leagueId}`, {
@@ -91,7 +104,7 @@ const Teamstandingpage = () => {
       } finally {
         setLoading(false);
       }
-    };
+    }; */
 
     const [visible, setVisible] = useState(5);
     const [expanded, setExpanded] = useState(false);

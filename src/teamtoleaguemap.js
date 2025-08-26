@@ -6,7 +6,7 @@ const teamtoleague = {
     VIL: 2014,  
     BET: 2014,   
     GET: 2014,  
-    MAL: 2014,  
+    MLL: 2014,  
     VAL: 2014,  
     CEL: 2014,   
     RSO: 2014,   
@@ -18,7 +18,8 @@ const teamtoleague = {
     LVT: 2014,  
     OVI: 2014,   
     ALA: 2014,  
-    RAY: 2014,   
+    RAY: 2014,
+    ARS: 2021,   
 }
 
 export default teamtoleague;

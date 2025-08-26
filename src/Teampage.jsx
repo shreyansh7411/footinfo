@@ -9,7 +9,7 @@ import { FaCaretUp } from "react-icons/fa";
 import { HiUserCircle } from "react-icons/hi2";
 import Getrules from "./Getrules";
 import rulesfunc from "./rules";
-import laligamap from "./mapping";
+import teammap from "./mapping";
 
 const Teampage = () => {
     const getRatingColor = (rating) => {
@@ -44,7 +44,7 @@ const Teampage = () => {
     const leagueId = team?.leagueId;
 
 
-    /* const fetchStandings = async () => {
+    const fetchStandings = async () => {
       try {
         setLoading(true);
         const response = await axios.get(`http://localhost:4000/api/standings/${leagueId}`, {
@@ -68,9 +68,9 @@ const Teampage = () => {
       } finally {
         setLoading(false);
       }
-    };  */
+    }; 
 
-    const fetchStandings = async () => {
+    /* const fetchStandings = async () => {
       try {
         setLoading(true);
         const response = await api.get(`/api/standings/${leagueId}`, {
@@ -93,7 +93,7 @@ const Teampage = () => {
       } finally {
         setLoading(false);
       }
-    };
+    }; */
 
 
 
@@ -202,7 +202,7 @@ const Teampage = () => {
               {Standings.map((t) => (
                   <tr key={t.position} className="group cursor-pointer">
                   <td ><div className={`${rulesfunc(t.position, team.league, Standings.length)} w-6.5 h-6.5 rounded-full flex justify-center items-center font-bold`}>{t.position}</div></td>
-                  <td className="py-2 flex gap-1" onClick={() => handleonClick(laligamap[t.name])}>
+                  <td className="py-2 flex gap-1" onClick={() => handleonClick(teammap[t.name])}>
                     <img src={t.crest} alt={t.name} className="w-5 h-5"/>
                     {t.name}
                   </td>

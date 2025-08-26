@@ -6,7 +6,7 @@ const standings_2021_22 = {
     {
       position: 1,
       team: "Manchester City",
-      crest: "https://crests.football-data.org/65.svg",
+      crest: "/England - Premier League/Manchester City.png",
       played: 38,
       won: 29,
       drawn: 6,
@@ -20,7 +20,7 @@ const standings_2021_22 = {
     {
       position: 2,
       team: "Liverpool",
-      crest: "https://crests.football-data.org/64.svg",
+      crest: "/England - Premier League/Liverpool FC.png",
       played: 38,
       won: 28,
       drawn: 8,
@@ -34,7 +34,7 @@ const standings_2021_22 = {
     {
       position: 3,
       team: "Chelsea",
-      crest: "https://crests.football-data.org/61.svg",
+      crest: "/England - Premier League/Chelsea FC.png",
       played: 38,
       won: 21,
       drawn: 11,
@@ -48,7 +48,7 @@ const standings_2021_22 = {
     {
       position: 4,
       team: "Tottenham Hotspur",
-      crest: "https://crests.football-data.org/73.svg",
+      crest: "/England - Premier League/Tottenham Hotspur.png",
       played: 38,
       won: 22,
       drawn: 5,
@@ -62,7 +62,7 @@ const standings_2021_22 = {
     {
       position: 5,
       team: "Arsenal",
-      crest: "https://crests.football-data.org/57.svg",
+      crest: "/England - Premier League/Arsenal FC.png",
       played: 38,
       won: 22,
       drawn: 3,
@@ -76,7 +76,7 @@ const standings_2021_22 = {
     {
       position: 6,
       team: "Manchester United",
-      crest: "https://crests.football-data.org/66.svg",
+      crest: "/England - Premier League/Manchester United.png",
       played: 38,
       won: 16,
       drawn: 10,
@@ -90,7 +90,7 @@ const standings_2021_22 = {
     {
       position: 7,
       team: "West Ham United",
-      crest: "https://crests.football-data.org/563.svg",
+      crest: "/England - Premier League/West Ham United.png",
       played: 38,
       won: 16,
       drawn: 8,
@@ -118,7 +118,7 @@ const standings_2021_22 = {
     {
       position: 9,
       team: "Brighton & Hove Albion",
-      crest: "https://crests.football-data.org/397.svg",
+      crest: "/England - Premier League/Brighton & Hove Albion.png",
       played: 38,
       won: 12,
       drawn: 15,
@@ -132,7 +132,7 @@ const standings_2021_22 = {
     {
       position: 10,
       team: "Wolverhampton Wanderers",
-      crest: "https://crests.football-data.org/76.svg",
+      crest: "/England - Premier League/Wolverhampton Wanderers.png",
       played: 38,
       won: 15,
       drawn: 6,
@@ -146,7 +146,7 @@ const standings_2021_22 = {
     {
       position: 11,
       team: "Newcastle United",
-      crest: "https://crests.football-data.org/67.svg",
+      crest: "/England - Premier League/Newcastle United.png",
       played: 38,
       won: 13,
       drawn: 10,
@@ -160,7 +160,7 @@ const standings_2021_22 = {
     {
       position: 12,
       team: "Crystal Palace",
-      crest: "https://crests.football-data.org/354.svg",
+      crest: "/England - Premier League/Crystal Palace.png",
       played: 38,
       won: 11,
       drawn: 15,
@@ -174,7 +174,7 @@ const standings_2021_22 = {
     {
       position: 13,
       team: "Brentford",
-      crest: "https://crests.football-data.org/354.svg",
+      crest: "/England - Premier League/Brentford FC.png",
       played: 38,
       won: 13,
       drawn: 7,
@@ -188,7 +188,7 @@ const standings_2021_22 = {
     {
       position: 14,
       team: "Aston Villa",
-      crest: "https://crests.football-data.org/58.svg",
+      crest: "/England - Premier League/Aston Villa.png",
       played: 38,
       won: 13,
       drawn: 6,
@@ -216,7 +216,7 @@ const standings_2021_22 = {
     {
       position: 16,
       team: "Everton",
-      crest: "https://crests.football-data.org/62.svg",
+      crest: "/England - Premier League/Everton FC.png",
       played: 38,
       won: 11,
       drawn: 6,
@@ -230,7 +230,7 @@ const standings_2021_22 = {
     {
       position: 17,
       team: "Leeds United",
-      crest: "https://crests.football-data.org/356.svg",
+      crest: "/England - Premier League/Leeds United.png",
       played: 38,
       won: 9,
       drawn: 11,
@@ -244,7 +244,7 @@ const standings_2021_22 = {
     {
       position: 18,
       team: "Burnley",
-      crest: "https://crests.football-data.org/328.svg",
+      crest: "/England - Premier League/Burnley FC.png",
       played: 38,
       won: 7,
       drawn: 14,

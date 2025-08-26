@@ -20,7 +20,7 @@ const standings_2015_16 = {
     {
       team: "Arsenal",
       position: 2,
-      crest: "https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg",
+      crest: "/England - Premier League/Arsenal FC.png",
       played: 38,
       won: 20,
       drawn: 11,
@@ -34,7 +34,7 @@ const standings_2015_16 = {
     {
       team: "Tottenham Hotspur",
       position: 3,
-      crest: "https://upload.wikimedia.org/wikipedia/en/b/b4/Tottenham_Hotspur.svg",
+      crest: "/England - Premier League/Tottenham Hotspur.png",
       played: 38,
       won: 19,
       drawn: 13,
@@ -48,7 +48,7 @@ const standings_2015_16 = {
     {
       team: "Manchester City",
       position: 4,
-      crest: "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg",
+      crest: "/England - Premier League/Manchester City.png",
       played: 38,
       won: 19,
       drawn: 9,
@@ -62,7 +62,7 @@ const standings_2015_16 = {
     {
       team: "Manchester United",
       position: 5,
-      crest: "https://upload.wikimedia.org/wikipedia/en/7/7a/Man_Utd_crest.svg",
+      crest: "/England - Premier League/Manchester United.png",
       played: 38,
       won: 19,
       drawn: 9,
@@ -90,7 +90,7 @@ const standings_2015_16 = {
     {
       team: "West Ham United",
       position: 7,
-      crest: "https://upload.wikimedia.org/wikipedia/en/c/c2/West_Ham_United_FC_logo.svg",
+      crest: "/England - Premier League/West Ham United.png",
       played: 38,
       won: 16,
       drawn: 14,
@@ -104,7 +104,7 @@ const standings_2015_16 = {
     {
       team: "Liverpool",
       position: 8,
-      crest: "https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg",
+      crest: "/England - Premier League/Liverpool FC.png",
       played: 38,
       won: 16,
       drawn: 12,
@@ -132,7 +132,7 @@ const standings_2015_16 = {
     {
       team: "Chelsea",
       position: 10,
-      crest: "https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg",
+      crest: "/England - Premier League/Chelsea FC.png",
       played: 38,
       won: 12,
       drawn: 14,
@@ -146,7 +146,7 @@ const standings_2015_16 = {
     {
       team: "Everton",
       position: 11,
-      crest: "https://upload.wikimedia.org/wikipedia/en/7/7c/Everton_FC_logo.svg",
+      crest: "/England - Premier League/Everton FC.png",
       played: 38,
       won: 11,
       drawn: 14,
@@ -202,7 +202,7 @@ const standings_2015_16 = {
     {
       team: "Crystal Palace",
       position: 15,
-      crest: "https://upload.wikimedia.org/wikipedia/en/0/0c/Crystal_Palace_FC.svg",
+      crest: "/England - Premier League/Crystal Palace.png",
       played: 38,
       won: 11,
       drawn: 9,
@@ -216,7 +216,7 @@ const standings_2015_16 = {
     {
       team: "Bournemouth",
       position: 16,
-      crest: "https://upload.wikimedia.org/wikipedia/en/3/3e/AFC_Bournemouth.svg",
+      crest: "/England - Premier League/AFC Bournemouth.png",
       played: 38,
       won: 11,
       drawn: 9,
@@ -230,7 +230,7 @@ const standings_2015_16 = {
     {
       team: "Sunderland",
       position: 17,
-      crest: "https://upload.wikimedia.org/wikipedia/en/6/60/Sunderland.svg",
+      crest: "/England - Premier League/Sunderland AFC.png",
       played: 38,
       won: 9,
       drawn: 12,
@@ -244,7 +244,7 @@ const standings_2015_16 = {
     {
       team: "Newcastle United",
       position: 18,
-      crest: "https://upload.wikimedia.org/wikipedia/en/5/56/Newcastle_United_Logo.svg",
+      crest: "/England - Premier League/Newcastle United.png",
       played: 38,
       won: 9,
       drawn: 10,
@@ -272,7 +272,7 @@ const standings_2015_16 = {
     {
       team: "Aston Villa",
       position: 20,
-      crest: "https://upload.wikimedia.org/wikipedia/en/9/9f/Aston_Villa_logo.svg",
+      crest: "/England - Premier League/Aston Villa.png",
       played: 38,
       won: 3,
       drawn: 8,

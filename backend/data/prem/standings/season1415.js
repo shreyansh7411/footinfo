@@ -6,7 +6,7 @@ const standings_2014_15 = {
     {
       team: "Chelsea",
       position: 1,
-      crest: "https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg",
+      crest: "/England - Premier League/Chelsea FC.png",
       played: 38,
       won: 26,
       drawn: 9,
@@ -20,7 +20,7 @@ const standings_2014_15 = {
     {
       team: "Manchester City",
       position: 2,
-      crest: "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg",
+      crest: "/England - Premier League/Manchester City.png",
       played: 38,
       won: 24,
       drawn: 7,
@@ -34,7 +34,7 @@ const standings_2014_15 = {
     {
       team: "Arsenal",
       position: 3,
-      crest: "https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg",
+      crest: "/England - Premier League/Arsenal FC.png",
       played: 38,
       won: 22,
       drawn: 9,
@@ -48,7 +48,7 @@ const standings_2014_15 = {
     {
       team: "Manchester United",
       position: 4,
-      crest: "https://upload.wikimedia.org/wikipedia/en/7/7a/Man_Utd_crest.svg",
+      crest: "/England - Premier League/Manchester United.png",
       played: 38,
       won: 20,
       drawn: 10,
@@ -62,7 +62,7 @@ const standings_2014_15 = {
     {
       team: "Tottenham Hotspur",
       position: 5,
-      crest: "https://upload.wikimedia.org/wikipedia/en/b/b4/Tottenham_Hotspur.svg",
+      crest: "/England - Premier League/Tottenham Hotspur.png",
       played: 38,
       won: 19,
       drawn: 7,
@@ -76,7 +76,7 @@ const standings_2014_15 = {
     {
       team: "Liverpool",
       position: 6,
-      crest: "https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg",
+      crest: "/England - Premier League/Liverpool FC.png",
       played: 38,
       won: 18,
       drawn: 8,
@@ -132,7 +132,7 @@ const standings_2014_15 = {
     {
       team: "Crystal Palace",
       position: 10,
-      crest: "https://upload.wikimedia.org/wikipedia/en/0/0c/Crystal_Palace_FC_logo_(2013).svg",
+      crest: "/England - Premier League/Crystal Palace.png",
       played: 38,
       won: 13,
       drawn: 9,
@@ -146,7 +146,7 @@ const standings_2014_15 = {
     {
       team: "Everton",
       position: 11,
-      crest: "https://upload.wikimedia.org/wikipedia/en/7/7c/Everton_FC_logo.svg",
+      crest: "/England - Premier League/Everton FC.png",
       played: 38,
       won: 12,
       drawn: 11,
@@ -160,7 +160,7 @@ const standings_2014_15 = {
     {
       team: "West Ham United",
       position: 12,
-      crest: "https://upload.wikimedia.org/wikipedia/en/c/c2/West_Ham_United_FC_logo.svg",
+      crest: "/England - Premier League/West Ham United.png",
       played: 38,
       won: 12,
       drawn: 11,
@@ -202,7 +202,7 @@ const standings_2014_15 = {
     {
       team: "Newcastle United",
       position: 15,
-      crest: "https://upload.wikimedia.org/wikipedia/en/5/56/Newcastle_United_Logo.svg",
+      crest: "/England - Premier League/Newcastle United.png",
       played: 38,
       won: 10,
       drawn: 9,
@@ -216,7 +216,7 @@ const standings_2014_15 = {
     {
       team: "Sunderland",
       position: 16,
-      crest: "https://upload.wikimedia.org/wikipedia/en/6/60/Sunderland.svg",
+      crest: "/England - Premier League/Sunderland AFC.png",
       played: 38,
       won: 7,
       drawn: 17,
@@ -230,7 +230,7 @@ const standings_2014_15 = {
     {
       team: "Aston Villa",
       position: 17,
-      crest: "https://upload.wikimedia.org/wikipedia/en/9/9f/Aston_Villa_logo.svg",
+      crest: "/England - Premier League/Aston Villa.png",
       played: 38,
       won: 10,
       drawn: 8,
@@ -258,7 +258,7 @@ const standings_2014_15 = {
     {
       team: "Burnley",
       position: 19,
-      crest: "https://upload.wikimedia.org/wikipedia/en/0/02/Burnley_FC_badge.png",
+      crest: "/England - Premier League/Burnley FC.png",
       played: 38,
       won: 7,
       drawn: 12,

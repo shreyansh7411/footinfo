@@ -6,7 +6,7 @@ const standings_2018_19 = {
     {
       team: "Manchester City",
       position: 1,
-      crest: "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg",
+      crest: "/England - Premier League/Manchester City.png",
       played: 38,
       won: 32,
       drawn: 2,
@@ -20,7 +20,7 @@ const standings_2018_19 = {
     {
       team: "Liverpool",
       position: 2,
-      crest: "https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg",
+      crest: "/England - Premier League/Liverpool FC.png",
       played: 38,
       won: 30,
       drawn: 7,
@@ -34,7 +34,7 @@ const standings_2018_19 = {
     {
       team: "Chelsea",
       position: 3,
-      crest: "https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg",
+      crest: "/England - Premier League/Chelsea FC.png",
       played: 38,
       won: 21,
       drawn: 9,
@@ -48,7 +48,7 @@ const standings_2018_19 = {
     {
       team: "Tottenham Hotspur",
       position: 4,
-      crest: "https://upload.wikimedia.org/wikipedia/en/b/b4/Tottenham_Hotspur.svg",
+      crest: "/England - Premier League/Tottenham Hotspur.png",
       played: 38,
       won: 23,
       drawn: 2,
@@ -62,7 +62,7 @@ const standings_2018_19 = {
     {
       team: "Arsenal",
       position: 5,
-      crest: "https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg",
+      crest: "/England - Premier League/Arsenal FC.png",
       played: 38,
       won: 21,
       drawn: 7,
@@ -76,7 +76,7 @@ const standings_2018_19 = {
     {
       team: "Manchester United",
       position: 6,
-      crest: "https://upload.wikimedia.org/wikipedia/en/7/7a/Man_Utd_crest.svg",
+      crest: "/England - Premier League/Manchester United.png",
       played: 38,
       won: 19,
       drawn: 9,
@@ -90,7 +90,7 @@ const standings_2018_19 = {
     {
       team: "Wolverhampton Wanderers",
       position: 7,
-      crest: "https://upload.wikimedia.org/wikipedia/en/f/fc/Wolverhampton_Wanderers.svg",
+      crest: "/England - Premier League/Wolverhampton Wanderers.png",
       played: 38,
       won: 16,
       drawn: 9,
@@ -104,7 +104,7 @@ const standings_2018_19 = {
     {
       team: "Everton",
       position: 8,
-      crest: "https://upload.wikimedia.org/wikipedia/en/7/7c/Everton_FC_logo.svg",
+      crest: "/England - Premier League/Everton FC.png",
       played: 38,
       won: 15,
       drawn: 9,
@@ -132,7 +132,7 @@ const standings_2018_19 = {
     {
       team: "West Ham United",
       position: 10,
-      crest: "https://upload.wikimedia.org/wikipedia/en/c/c2/West_Ham_United_FC_logo.svg",
+      crest: "/England - Premier League/West Ham United.png",
       played: 38,
       won: 15,
       drawn: 7,
@@ -160,7 +160,7 @@ const standings_2018_19 = {
     {
       team: "Crystal Palace",
       position: 12,
-      crest: "https://upload.wikimedia.org/wikipedia/en/0/0c/Crystal_Palace_FC.svg",
+      crest: "/England - Premier League/Crystal Palace.png",
       played: 38,
       won: 14,
       drawn: 7,
@@ -174,7 +174,7 @@ const standings_2018_19 = {
     {
       team: "Newcastle United",
       position: 13,
-      crest: "https://upload.wikimedia.org/wikipedia/en/5/56/Newcastle_United_Logo.svg",
+      crest: "/England - Premier League/Newcastle United.png",
       played: 38,
       won: 12,
       drawn: 9,
@@ -188,7 +188,7 @@ const standings_2018_19 = {
     {
       team: "Bournemouth",
       position: 14,
-      crest: "https://upload.wikimedia.org/wikipedia/en/3/3e/AFC_Bournemouth.svg",
+      crest: "/England - Premier League/AFC Bournemouth.png",
       played: 38,
       won: 13,
       drawn: 6,
@@ -202,7 +202,7 @@ const standings_2018_19 = {
     {
       team: "Burnley",
       position: 15,
-      crest: "https://upload.wikimedia.org/wikipedia/en/0/02/Burnley_FC_badge.png",
+      crest: "/England - Premier League/Burnley FC.png",
       played: 38,
       won: 11,
       drawn: 7,
@@ -230,7 +230,7 @@ const standings_2018_19 = {
     {
       team: "Brighton & Hove Albion",
       position: 17,
-      crest: "https://upload.wikimedia.org/wikipedia/en/0/0e/Brighton_%26_Hove_Albion_logo.svg",
+      crest: "/England - Premier League/Brighton & Hove Albion.png",
       played: 38,
       won: 9,
       drawn: 9,
@@ -258,7 +258,7 @@ const standings_2018_19 = {
     {
       team: "Fulham",
       position: 19,
-      crest: "https://upload.wikimedia.org/wikipedia/en/7/7a/Fulham_FC_%282018%29_logo.svg",
+      crest: "/England - Premier League/Fulham FC.png",
       played: 38,
       won: 7,
       drawn: 5,

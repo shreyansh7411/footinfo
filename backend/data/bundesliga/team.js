@@ -235,4 +235,4 @@ const bundesligateams = [
   }
 ];
 
-module.exports = bundesligateams;
+export default bundesligateams;

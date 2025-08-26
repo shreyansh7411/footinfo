@@ -6,7 +6,7 @@ const standings_2023_24 = {
     {
       position: 1,
       team: "Manchester City",
-      crest: "https://crests.football‑data.org/65.svg",
+      crest: "/England - Premier League/Manchester City.png",
       played: 38,
       won: 28,
       drawn: 7,
@@ -20,7 +20,7 @@ const standings_2023_24 = {
     {
       position: 2,
       team: "Arsenal",
-      crest: "https://crests.football‑data.org/57.svg",
+      crest: "/England - Premier League/Arsenal.png",
       played: 38,
       won: 28,
       drawn: 5,
@@ -34,7 +34,7 @@ const standings_2023_24 = {
     {
       position: 3,
       team: "Liverpool",
-      crest: "https://crests.football‑data.org/64.svg",
+      crest: "/England - Premier League/Liverpool FC.png",
       played: 38,
       won: 24,
       drawn: 10,
@@ -48,7 +48,7 @@ const standings_2023_24 = {
     {
       position: 4,
       team: "Aston Villa",
-      crest: "https://crests.football‑data.org/58.svg",
+      crest: "/England - Premier League/Aston Villa.png",
       played: 38,
       won: 20,
       drawn: 8,
@@ -62,7 +62,7 @@ const standings_2023_24 = {
     {
       position: 5,
       team: "Tottenham Hotspur",
-      crest: "https://crests.football‑data.org/73.svg",
+      crest: "/England - Premier League/Tottenham Hotspur.png",
       played: 38,
       won: 20,
       drawn: 6,
@@ -76,7 +76,7 @@ const standings_2023_24 = {
     {
       position: 6,
       team: "Chelsea",
-      crest: "https://crests.football‑data.org/61.svg",
+      crest: "/England - Premier League/Chelsea.png",
       played: 38,
       won: 18,
       drawn: 9,
@@ -90,7 +90,7 @@ const standings_2023_24 = {
     {
       position: 7,
       team: "Newcastle United",
-      crest: "https://crests.football‑data.org/67.svg",
+      crest: "/England - Premier League/Newcastle United.png",
       played: 38,
       won: 18,
       drawn: 6,
@@ -104,7 +104,7 @@ const standings_2023_24 = {
     {
       position: 8,
       team: "Manchester United",
-      crest: "https://crests.football‑data.org/66.svg",
+      crest: "/England - Premier League/Manchester United.png",
       played: 38,
       won: 18,
       drawn: 6,
@@ -118,7 +118,7 @@ const standings_2023_24 = {
     {
       position: 9,
       team: "West Ham United",
-      crest: "https://crests.football‑data.org/563.svg",
+      crest: "/England - Premier League/West Ham United.png",
       played: 38,
       won: 14,
       drawn: 10,
@@ -132,7 +132,7 @@ const standings_2023_24 = {
     {
       position: 10,
       team: "Crystal Palace",
-      crest: "https://crests.football‑data.org/354.svg",
+      crest: "/England - Premier League/Crystal Palace.png",
       played: 38,
       won: 13,
       drawn: 10,
@@ -146,7 +146,7 @@ const standings_2023_24 = {
     {
       position: 11,
       team: "Brighton & Hove Albion",
-      crest: "https://crests.football‑data.org/397.svg",
+      crest: "/England - Premier League/Brighton & Hove Albion.png",
       played: 38,
       won: 12,
       drawn: 12,
@@ -160,7 +160,7 @@ const standings_2023_24 = {
     {
       position: 12,
       team: "Bournemouth",
-      crest: "https://crests.football‑data.org/1044.svg",
+      crest: "/England - Premier League/AFC Bournemouth.png",
       played: 38,
       won: 13,
       drawn: 9,
@@ -174,7 +174,7 @@ const standings_2023_24 = {
     {
       position: 13,
       team: "Fulham",
-      crest: "https://crests.football‑data.org/---.svg",
+      crest: "/England - Premier League/Fulham.png",
       played: 38,
       won: 13,
       drawn: 8,
@@ -188,7 +188,7 @@ const standings_2023_24 = {
     {
       position: 14,
       team: "Wolves",
-      crest: "https://crests.football‑data.org/---.svg",
+      crest: "/England - Premier League/Wolverhampton Wanderers.png",
       played: 38,
       won: 13,
       drawn: 7,
@@ -202,7 +202,7 @@ const standings_2023_24 = {
     {
       position: 15,
       team: "Everton",
-      crest: "https://crests.football‑data.org/62.svg",
+      crest: "/England - Premier League/Everton FC.png",
       played: 38,
       won: 13,
       drawn: 9,
@@ -216,7 +216,7 @@ const standings_2023_24 = {
     {
       position: 16,
       team: "Brentford",
-      crest: "https://crests.football‑data.org/---.svg",
+      crest: "/England - Premier League/Brentford.png",
       played: 38,
       won: 10,
       drawn: 9,
@@ -230,7 +230,7 @@ const standings_2023_24 = {
     {
       position: 17,
       team: "Nottingham Forest",
-      crest: "https://crests.football‑data.org/---.svg",
+      crest: "/England - Premier League/Nottingham Forest.png",
       played: 38,
       won: 9,
       drawn: 9,
@@ -244,7 +244,7 @@ const standings_2023_24 = {
     {
       position: 18,
       team: "Luton Town",
-      crest: "https://crests.football‑data.org/---.svg",
+      crest: "/England - Premier League/Luton Town.png",
       played: 38,
       won: 6,
       drawn: 8,
@@ -258,7 +258,7 @@ const standings_2023_24 = {
     {
       position: 19,
       team: "Burnley",
-      crest: "https://crests.football‑data.org/---.svg",
+      crest: "/England - Premier League/Burnley.png",
       played: 38,
       won: 5,
       drawn: 9,
@@ -272,7 +272,7 @@ const standings_2023_24 = {
     {
       position: 20,
       team: "Sheffield United",
-      crest: "https://crests.football‑data.org/---.svg",
+      crest: "/England - Premier League/Sheffield United.png",
       played: 38,
       won: 3,
       drawn: 7,
