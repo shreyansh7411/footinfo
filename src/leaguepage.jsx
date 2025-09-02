@@ -12,8 +12,8 @@ const leaguemap = {
     2021: "Premier League",
     2014: "La Liga",
     2002: "Bundesliga",
-    2015: "Serie A",
-    2019: "Ligue 1"
+    2019: "Serie A",
+    2015: "Ligue 1"
 }
 
 const leaguepage = () => {
