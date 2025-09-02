@@ -105,8 +105,7 @@ const Teamstandingpage = () => {
       } finally {
         setLoading(false);
       }
-    };
-
+    }; 
     const [visible, setVisible] = useState(5);
     const [expanded, setExpanded] = useState(false);
 

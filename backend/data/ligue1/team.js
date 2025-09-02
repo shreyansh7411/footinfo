@@ -156,7 +156,7 @@ const ligue1teams = [
    titles: 4
  },
  {
-   teamId: "LYON",
+   teamId: "LYO",
    name: "Olympique Lyonnais",
    shortName: "Lyon",
    country: "France",
