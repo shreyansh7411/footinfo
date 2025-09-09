@@ -1,5 +1,4 @@
 import Teams from './teams'
-import './mainteams.css'
 import { useEffect, useState } from 'react';
 import { AiFillInstagram,  AiOutlineGlobal} from "react-icons/ai";
 import { useNavigate } from 'react-router-dom';
@@ -36,11 +35,11 @@ function Mainteams () {
 
     return <>
         <div className="text-sm font-bold text-neutral-400 pb-3">
-          Football today – Explore some of the greatest footballing clubs and nations.
+          Football today - Explore some of the greatest footballing clubs and nations.
         </div>
-        <div className="main-box w-2/5 border border-none rounded-4xl bg-zinc-800 py-2">
+        <div className="main-box w-2/5 border border-none rounded-4xl bg-zinc-900 py-2">
             <div className="text-white h-10 justify-self-center">
-                <div className="bg-black border border-purple-600 rounded-2xl py-1 px-2 hover:bg-purple-600 hover:border-none transition-colors duration-200 ease-in-out hover:cursor-pointer">Teams</div>
+                <div className="font-bold flex justify-center items-center bg-black px-3 h-8 border border-gray-500 rounded-lg cursor-pointer hover:text-black hover:bg-gray-300 transition-colors duration-300 ease-in-out">Teams</div>
             </div>
             <hr className="text-white" />
             <div className="mainteam-btn text-white">
@@ -51,7 +50,7 @@ function Mainteams () {
                             <div>
                                 <span>{t.name}</span>
                                 <div className='flex gap-2 items-center'>
-                                    <img src={t.flag} alt={t.name} className="round-img" />
+                                    <img src={t.flag} alt={t.name} className="w-4 h-4 border rounded-2xl object-cover" />
                                     {t.country}
                                 </div>
                             </div>

@@ -1,6 +1,7 @@
 const teammap = {
   "Real Madrid": "RMA",
   "Barcelona": "FCB",
+  "FC Barcelona": "FCB",
   "Barça": "FCB",
   "Atletico Madrid": "ATM",
   "Atleti": "ATM",

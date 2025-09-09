@@ -68,7 +68,7 @@ const Teampage = () => {
       } finally {
         setLoading(false);
       }
-    };  */
+    }; */
 
     const fetchStandings = async () => {
       try {
