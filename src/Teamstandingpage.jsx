@@ -41,6 +41,9 @@ const Teamstandingpage = () => {
   const handleonClick = (teamId) => {
     navigate(`/standings/${teamId}`);
   }
+  const handleOnClickPlayer = (teamId, playerName) => {
+    navigate(`/standings/${teamId}/player/${playerName}`);
+  }
 
   let i = 1;
   const {teamId} = useParams();
@@ -79,7 +82,7 @@ const Teamstandingpage = () => {
       } finally {
         setLoading(false);
       }
-    }; */  
+    };*/
 
     const fetchStandings = async () => {
       try {
@@ -160,7 +163,7 @@ const Teamstandingpage = () => {
         <div className="text-white bg-zinc-900 w-1/4 max-h-fit border border-none rounded-lg">
           <div className="flex justify-center p-4 font-bold">Top players</div>
           {squad.slice(0, visible).map((player) => (
-            <div key={player.name} className="text-white p-4 hover:bg-zinc-800 flex justify-between">
+            <div key={player.name} className="text-white p-4 hover:bg-zinc-800 flex justify-between cursor-pointer">
               <div className="flex gap-2">
                 <div>{i++}</div>
                 <div>
@@ -169,7 +172,7 @@ const Teamstandingpage = () => {
                   ) : (
                     <img src={player.imageUrl} alt={player.name} className="w-8 h-8 border border-none rounded-full" onError={() => setImageError(false)}/>)}
                 </div>
-                <div>{player.name}</div>
+                <div onClick={() => handleOnClickPlayer(teamId, player.name)}>{player.name}</div>
               </div>
               <div className="flex gap-1.5 items-center">
                 <div className={`w-3.5 h-3.5 ${getRatingColor(player.averRating)} border-b border-r border-white`}></div>

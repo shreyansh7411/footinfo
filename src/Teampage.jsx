@@ -26,6 +26,9 @@ const Teampage = () => {
     const handleonClick = (teamId) => {
       navigate(`/standings/${teamId}`);
     }
+    const handleOnClickPlayer = (teamId, playerName) => {
+    navigate(`/standings/${teamId}/player/${playerName}`);
+  }
 
 
     let i = 1;
@@ -68,7 +71,7 @@ const Teampage = () => {
       } finally {
         setLoading(false);
       }
-    }; */
+    };  */
 
     const fetchStandings = async () => {
       try {
@@ -162,7 +165,7 @@ const Teampage = () => {
                 ) : (
                   <img src={player.imageUrl} alt={player.name} className="w-8 h-8 border border-none rounded-full" onError={() => setImageError(false)}/>)}
               </div>
-              <div>{player.name}</div>
+              <div className="cursor-pointer" onClick={() => handleOnClickPlayer(teammap[name], player.name)}>{player.name}</div>
             </div>
             <div className="flex gap-1.5 items-center">
               <div className={`w-3.5 h-3.5 ${getRatingColor(player.averRating)} border-b border-r border-white`}></div>

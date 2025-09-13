@@ -89,8 +89,8 @@ const leaguepage = () => {
     <div className="w-3/7 flex flex-col gap-4">
     <div className="bg-zinc-900 p-4 border border-none rounded-lg max-h-fit mb-2">
           <div className="text-white font-bold flex justify-center pb-2 gap-8 ">
-            <div className='flex justify-center items-center bg-black px-3 h-8 border border-gray-500 rounded-lg cursor-pointer hover:text-black hover:bg-gray-300 transition-colors duration-300 ease-in-out' onClick={() => setActive('Standings')}>Standings</div>
-            <div className='flex justify-center items-center bg-black px-3 h-8 border border-gray-500 rounded-lg cursor-pointer hover:text-black hover:bg-gray-300 transition-colors duration-300 ease-in-out' onClick={() => setActive('Teams')}>Teams</div>
+            <div className={`flex justify-center items-center bg-black px-3 h-8 border border-gray-500 rounded-lg cursor-pointer hover:text-black  transition-colors duration-300 ease-in-out ${active === 'Teams'? "bg-gray-300 text-black hover:bg-gray-300":"hover:bg-gray-400"}`} onClick={() => setActive('Teams')}>Teams</div>
+            <div className={`flex justify-center items-center bg-black px-3 h-8 border border-gray-500 rounded-lg cursor-pointer hover:text-black  transition-colors duration-300 ease-in-out ${active === 'Standings'? "bg-gray-300 text-black hover:bg-gray-300":"hover:bg-gray-400"}`} onClick={() => setActive('Standings')}>Standings</div>
           </div>
           <div className="flex gap-4">
             <div className="text-white bg-black flex justify-center items-center h-8 w-auto px-3 border border-none rounded-lg ">{leaguemap[leagueId]}</div>
@@ -210,9 +210,9 @@ const leaguepage = () => {
 )}
 
         </div>
-        <div className="bg-zinc-900 text-white p-4 border border-none rounded-2xl">
+        {active === 'Standings'? ( <div className="bg-zinc-900 text-white p-4 border border-none rounded-2xl">
         <Getrules leagueName={leaguemap[leagueId]} />
-        </div>
+        </div>):(<div></div>)}
         </div>
     </>
 }
